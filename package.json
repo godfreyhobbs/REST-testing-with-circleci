@@ -1,0 +1,19 @@
+{
+  "name": "circleci-REST-testing",
+  "version": "1.0.0",
+  "description": "test REST queries via mocha and circle ci",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter mocha-junit-reporter --reporter-options mochaFile=./test_results/test-results.xml"
+  },
+  "author": "Godfrey Hobbs",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mocha-junit-reporter": "^1.12.1",
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.3",
+    "requests": "^0.1.7"
+  }
+}
